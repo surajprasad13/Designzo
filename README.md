@@ -18,21 +18,15 @@ Here’s how you can structure the README file with screenshots included:
 
 - **React Native**: Core framework for building the cross-platform mobile app (iOS & Android).
 - **Firebase Authentication**: User authentication (Email, Phone, Google Sign-In).
-- **Firebase Firestore**: NoSQL database to store and sync customer, vendor, and order data in real time.
-- **Firebase Cloud Messaging**: Push notifications to keep users updated on order status and communications.
-- **Redux**: State management for app-wide data handling.
 - **React Navigation**: Navigation between different app screens.
-- **Axios**: For API requests and integration with third-party services.
-- **Cloud Storage**: For managing media files like product images.
-- **Stripe/PayPal**: Integrated payment gateways for secure transactions.
 
 ## Screenshots
 
 ### Customer Login Screen
 
-![Customer Login](./screenshots/login1.png)
-![Customer Login](./screenshots/login2.png)
-![Customer Login](./screenshots/login3.png)
+<img src="./screenshots/login1.png" alt="Customer Login" width="200"/>
+<img src="./screenshots/login1.png" alt="Customer Login" width="200"/>
+<img src="./screenshots/login1.png" alt="Customer Login" width="200"/>
 
 
 ## Features
