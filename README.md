@@ -25,8 +25,8 @@ Here’s how you can structure the README file with screenshots included:
 ### Customer Login Screen
 
 <img src="./screenshots/login1.png" alt="Customer Login" width="200"/>
-<img src="./screenshots/login1.png" alt="Customer Login" width="200"/>
-<img src="./screenshots/login1.png" alt="Customer Login" width="200"/>
+<img src="./screenshots/login2.png" alt="Customer Login" width="200"/>
+<img src="./screenshots/login3.png" alt="Customer Login" width="200"/>
 
 
 ## Features
