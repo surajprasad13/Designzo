@@ -1,79 +1,84 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+To include screenshots in your README file, follow these steps:
 
-# Getting Started
+1. Take relevant screenshots from your **Prakria-Direct** app (e.g., login screen, dashboard, order management, product listing, etc.).
+2. Save the screenshots in a folder (e.g., `/screenshots`) inside your project directory.
+3. Reference them in your README file using Markdown.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Here’s how you can structure the README file with screenshots included:
 
-## Step 1: Start the Metro Server
+---
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+# Prakria-Direct Mobile App
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Overview
 
-```bash
-# using npm
-npm start
+**Prakria-Direct** is a customer-vendor mobile application built using modern technologies to provide seamless interaction between businesses and customers. The app allows customers to place orders, communicate with vendors, and track deliveries, while vendors manage orders and interact with customers.
 
-# OR using Yarn
-yarn start
-```
+## Technologies Used
 
-## Step 2: Start your Application
+- **React Native**: Core framework for building the cross-platform mobile app (iOS & Android).
+- **Firebase Authentication**: User authentication (Email, Phone, Google Sign-In).
+- **Firebase Firestore**: NoSQL database to store and sync customer, vendor, and order data in real time.
+- **Firebase Cloud Messaging**: Push notifications to keep users updated on order status and communications.
+- **Redux**: State management for app-wide data handling.
+- **React Navigation**: Navigation between different app screens.
+- **Axios**: For API requests and integration with third-party services.
+- **Cloud Storage**: For managing media files like product images.
+- **Stripe/PayPal**: Integrated payment gateways for secure transactions.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Screenshots
 
-### For Android
+### Customer Login Screen
 
-```bash
-# using npm
-npm run android
+![Customer Login](./screenshots/login1.png)
+![Customer Login](./screenshots/login2.png)
+![Customer Login](./screenshots/login3.png)
 
-# OR using Yarn
-yarn android
-```
 
-### For iOS
+## Features
 
-```bash
-# using npm
-npm run ios
+### Customers
 
-# OR using Yarn
-yarn ios
-```
+- User registration and login (via Firebase Authentication)
+- Browse products/services (from Firestore)
+- Place and track orders (Firestore-backed)
+- In-app messaging (Firestore for real-time chats)
+- Push notifications (Cloud Messaging)
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Vendors
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+- Manage orders and inventory (Firestore)
+- Customer interaction via messaging
+- Order tracking and fulfillment notifications
+- Sales performance and order insights
 
-## Step 3: Modifying your App
+## Installation
 
-Now that you have successfully run the app, let's modify it.
+1. Clone the repository:  
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+   ```bash
+   git clone https://github.com/surajprasad13/prakria-direct.git
+   ```
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+2. Install dependencies:  
 
-## Congratulations! :tada:
+   ```bash
+   cd prakria-direct  
+   npm install
+   ```
 
-You've successfully run and modified your React Native App. :partying_face:
+3. Setup Firebase:
+   - Add your Firebase project’s `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) in the respective directories.
 
-### Now what?
+4. Run the app:
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+   ```bash
+   npx react-native run-android   // For Android
+   npx react-native run-ios       // For iOS
+   ```
 
-# Troubleshooting
+## License
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+**Prakria-Direct** is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
