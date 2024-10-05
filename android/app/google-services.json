@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "872442153196",
+    "project_id": "prakria-direct-48c12",
+    "storage_bucket": "prakria-direct-48c12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872442153196:android:e6c6f8be4456024b587dc9",
+        "android_client_info": {
+          "package_name": "com.designzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872442153196-aqchgfudbev2rllvkl1dnl63iqiuaps4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.designzo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "872442153196-j1esnvm1k2lng8kiuncmuuo4es49thuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.designzo",
+            "certificate_hash": "5ccc357822b389334ca79b4b39986c4b2fa59abf"
+          }
+        },
+        {
+          "client_id": "872442153196-8k9sjojpjj8n4rnrkq8pc6m7dfi0act0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSrkqyXDtved222VwE5fxZDO85OUWDk2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872442153196-8k9sjojpjj8n4rnrkq8pc6m7dfi0act0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "872442153196-d24v327hriuu7blmm99vpdrulr5b2j1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.prakriadirect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

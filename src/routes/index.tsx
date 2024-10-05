@@ -13,20 +13,20 @@ import Home from '../screens/Home';
 const {Navigator, Screen} = createStackNavigator<RootStackParamList>();
 
 function AppNavigator(): React.JSX.Element {
-  const [currentUser, setCurrentUser] = useState<null | any>({});
+  const [currentUser, setCurrentUser] = useState<null | any>(null);
 
   useEffect(() => {
     getCurrentUser();
   }, []);
 
   function getCurrentUser() {
-    try {
-      const user = auth().currentUser;
-      console.log(user);
-      setCurrentUser(user);
-    } catch (error) {
-      console.log(error, 'error in getting user');
-    }
+    auth().onAuthStateChanged(user => {
+      if (user) {
+        setCurrentUser(user);
+      } else {
+        setCurrentUser(null);
+      }
+    });
   }
 
   return (
